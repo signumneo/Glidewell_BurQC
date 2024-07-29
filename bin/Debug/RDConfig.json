@@ -1,0 +1,14 @@
+{
+  "GrainCoverage": {
+    "GC1": 0,
+    "GC2": 0,
+    "GC3": 15,
+    "GC4": 35,
+    "GC5": 0
+  },
+  "MeanGrainProtustion": {
+    "MTV1": 35
+  },
+  "TempFolderName": "",
+  "CSVBaggingFolderPath": ""
+}

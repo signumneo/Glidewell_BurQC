@@ -1,0 +1,29 @@
+6/28/2024 7:37:53 AM: New boxBarcode testing1 added to the database with 100 burs loaded.
+6/28/2024 8:00:29 AM: No items found for fixtureID: jake_testing
+6/28/2024 8:00:29 AM: Loaded empty fixture grid.
+6/28/2024 8:00:29 AM: New fixtureID jake_testing added to the database with empty bur slots.
+6/28/2024 8:24:02 AM: No items found for fixtureID: jake_004
+6/28/2024 8:24:02 AM: Loaded empty fixture grid.
+6/28/2024 8:24:02 AM: New fixtureID jake_004 added to the database with no bur data.
+6/28/2024 8:31:01 AM: No items found for fixtureID: jake_005
+6/28/2024 8:31:01 AM: Loaded empty fixture grid.
+6/28/2024 8:31:01 AM: New fixtureID jake_005 added to the database with empty bur slots.
+6/28/2024 8:44:18 AM: New boxBarcode 112404 added to the database with 100 burs loaded.
+6/28/2024 8:44:29 AM: New boxBarcode 1 added to the database with 100 burs loaded.
+6/28/2024 10:43:30 AM: No data found for this fixtureID: jake_005. New fixture created.
+6/28/2024 10:44:40 AM: No data found for this fixtureID: 102. New fixture created.
+6/28/2024 11:06:58 AM: New boxBarcode 1124042932 added to the database with 100 burs loaded.
+6/28/2024 11:07:08 AM: No boxBarcode scanned or incomplete barcode.
+6/28/2024 12:14:06 PM: New boxBarcode 1024042931 added to the database with 100 burs loaded.
+6/28/2024 12:25:37 PM: No boxBarcode scanned or incomplete barcode.
+6/28/2024 12:37:12 PM: No boxBarcode scanned or incomplete barcode.
+6/28/2024 12:54:11 PM: New boxBarcode 1024042932 added to the database with 100 burs loaded.
+6/28/2024 12:54:45 PM: No boxBarcode scanned or incomplete barcode.
+6/28/2024 1:02:39 PM: No boxBarcode scanned or incomplete barcode.
+6/28/2024 1:03:07 PM: No boxBarcode scanned or incomplete barcode.
+6/28/2024 1:46:13 PM: No boxBarcode scanned or incomplete barcode.
+7/1/2024 3:56:45 AM: No boxBarcode scanned or incomplete barcode.
+7/1/2024 3:57:29 AM: No boxBarcode scanned or incomplete barcode.
+7/1/2024 4:11:21 AM: No boxBarcode scanned or incomplete barcode.
+7/1/2024 5:45:03 AM: No boxBarcode scanned or incomplete barcode.
+7/1/2024 5:45:24 AM: No boxBarcode scanned or incomplete barcode.

@@ -1,0 +1,82 @@
+{
+  "GCBins": [
+    {
+      "bin": "H",
+      "lowerGC": 0,
+      "upperGC": 10,
+      "color": "#ff1a1a",
+      "burCategory": "FAIL"
+    },
+    {
+      "bin": "G",
+      "lowerGC": 10,
+      "upperGC": 15,
+      "color": "#ffa31a",
+      "burCategory": "QUARANTINE"
+    },
+    {
+      "bin": "D",
+      "lowerGC": 15,
+      "upperGC": 35,
+      "color": "#339966",
+      "burCategory": "PASS"
+    },
+    {
+      "bin": "F",
+      "lowerGC": 35,
+      "upperGC": 45,
+      "color": "#ffa31a",
+      "burCategory": "QUARANTINE"
+    },
+    {
+      "bin": "C",
+      "lowerGC": 45,
+      "upperGC": 55,
+      "color": "#ffa31a",
+      "burCategory": "QUARANTINE"
+    },
+    {
+      "bin": "B",
+      "lowerGC": 55,
+      "upperGC": 100,
+      "color": "#ffa31a",
+      "burCategory": "QUARANTINE"
+    },
+    {
+      "bin": null,
+      "lowerGC": 0,
+      "upperGC": 0,
+      "color": "#ffffff",
+      "burCategory": null
+    },
+    {
+      "bin": null,
+      "lowerGC": 0,
+      "upperGC": 0,
+      "color": "#ffffff",
+      "burCategory": null
+    },
+    {
+      "bin": null,
+      "lowerGC": 0,
+      "upperGC": 0,
+      "color": "#ffffff",
+      "burCategory": null
+    },
+    {
+      "bin": null,
+      "lowerGC": 0,
+      "upperGC": 0,
+      "color": "#ffffff",
+      "burCategory": null
+    }
+  ],
+  "MGPCutoffBin": {
+    "bin": "H",
+    "MGP": 40,
+    "color": "#a64dff",
+    "burCategory": "FAIL"
+  },
+  "version": 3,
+  "updatedTime": "2024-07-24T14:47:55.808"
+}

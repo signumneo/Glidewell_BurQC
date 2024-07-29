@@ -1,0 +1,14 @@
+{
+  "GrainCoverage": {
+    "GC1": 10,
+    "GC2": 24,
+    "GC3": 25,
+    "GC4": 34,
+    "GC5": 35
+  },
+  "MeanGrainProtustion": {
+    "MTV1": 35
+  },
+  "TempFolderName": "C:\\Users\\jacob.thomas\\Downloads\\",
+  "CSVBaggingFolderPath": "C:\\Users\\jacob.thomas\\Downloads\\"
+}

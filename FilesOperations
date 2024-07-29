@@ -1,0 +1,165 @@
+﻿using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Drawing;
+using System.Data;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Windows.Forms;
+using System.IO;
+using Microsoft.Office.Interop.Excel;
+using _Excel = Microsoft.Office.Interop.Excel;
+using PdfSharp.Pdf;
+using PdfSharp.Pdf.IO;
+
+
+namespace User_Interface
+{
+    class FilesOperations
+    {
+        public bool IsFileLocked(string fileName)
+        {
+            bool fileIsLocked = false;
+            try
+            {
+                FileStream fs =
+                    File.Open(fileName, FileMode.OpenOrCreate,
+                    FileAccess.ReadWrite, FileShare.None);
+                fs.Close();
+            }
+            catch (IOException ex)
+            {
+                fileIsLocked = true;
+                Console.WriteLine(ex);
+            }
+            return fileIsLocked;
+        }
+
+        public List<List<string>> ExtractInfoFromTempFolder(string directoryPath)
+        {
+            string[] filesInDirectoryPath = Directory.GetFiles(directoryPath, "*.pdf");
+ 
+            List<List<string>> fileNamesExtractedData = new List<List<string>>();
+
+            foreach (string file in filesInDirectoryPath)
+            {
+                List<string> fileNameExtractedData = new List<string>();
+                string fileNameNoExtension = Path.GetFileNameWithoutExtension(file);
+                string[] fileNameNoExtensionParsed = fileNameNoExtension.Split('_');
+                Console.WriteLine(fileNameNoExtensionParsed.Length);
+                if (fileNameNoExtensionParsed.Length == 7)
+                {
+                    string lotNumber = fileNameNoExtensionParsed[1];
+                    string systemIdentifier = fileNameNoExtensionParsed[2];
+                    string scanDate = fileNameNoExtensionParsed[4];
+                    string scanTime = fileNameNoExtensionParsed[5];
+                    string scanDateTime = scanDate + "_" + scanTime;
+
+                    string burIndex = fileNameNoExtensionParsed[fileNameNoExtensionParsed.Length - 1]; //this is going to spill Position1 for instance
+
+                    string[] scan_position_parsed = burIndex.Split('n');
+
+                    if (scan_position_parsed.Length == 2)
+                    {
+                        burIndex = scan_position_parsed[1];              
+                    }
+                    else
+                    {
+                        burIndex = "";
+                    }
+
+                    Int32.TryParse(lotNumber, out int lot_number_int);
+                    Int32.TryParse(burIndex, out int scan_position_int);
+
+                    fileNameExtractedData.Add(lotNumber);
+                    fileNameExtractedData.Add(scanDateTime);
+                    fileNameExtractedData.Add(burIndex);
+                    fileNameExtractedData.Add(systemIdentifier);
+                    fileNamesExtractedData.Add(fileNameExtractedData);
+                }
+            }
+            if (fileNamesExtractedData.Count > 0)
+            {
+                return fileNamesExtractedData;
+            }
+            else
+            {
+                return null;
+            }
+        }
+
+        public List<string> FindFilePaths(string directoryPath, string distinctLotDateTime, string fileExtension)
+        {
+            //string[] files = Directory.GetFiles(@folder_path, "*.pdf");
+            string[] filesInDirectoryPath = Directory.GetFiles(directoryPath, ("*."+ fileExtension));
+            int expected_parsed_file_length;
+            if (fileExtension == "pdf")
+            {
+                expected_parsed_file_length = 7;
+            }
+            else if (fileExtension == "csv")
+            {
+                expected_parsed_file_length = 6;
+            }
+            else
+            {
+                expected_parsed_file_length = 0;
+            }
+
+            List<List<string>> list = new List<List<string>>();
+            List<string> file_paths_list = new List<string>();
+            if (expected_parsed_file_length != 0)
+            {
+                try
+                {
+                    foreach (string file in filesInDirectoryPath)
+                    {
+                        List<string> sublist = new List<string>();
+                        string file_no_extension = Path.GetFileNameWithoutExtension(file);
+                        string[] file_no_extension_parsed = file_no_extension.Split('_');
+
+                        if (file_no_extension_parsed.Length == expected_parsed_file_length)
+                        {  
+                            string lot_number = file_no_extension_parsed[1];
+                            string scan_date = file_no_extension_parsed[4];
+                            string scan_time = file_no_extension_parsed[5];
+                            string scan_date_time = scan_date + "_" + scan_time;
+
+                            string read_lot_number_date_time = lot_number + "_" + scan_date_time;
+
+                            if (read_lot_number_date_time == distinctLotDateTime)
+                            {
+                                string file_path = file;
+                                file_paths_list.Add(file_path);
+                            }
+                        }
+                    
+                    }
+                    if (file_paths_list.Count > 0)
+                    {
+                        Console.WriteLine("list not 0");
+                        file_paths_list = file_paths_list.OrderBy(x => file_paths_list).ToList();
+                        return file_paths_list;
+                
+                    }
+                    else
+                    {
+                        Console.WriteLine("list null");
+                        return null;
+                    }
+                }
+                catch
+                {
+                    return null;
+                }
+            }
+            else
+            {
+                return null;
+            }
+           
+            
+        }         
+    }
+}

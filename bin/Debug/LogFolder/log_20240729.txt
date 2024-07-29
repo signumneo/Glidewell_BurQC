@@ -1,0 +1,16 @@
+[11:09:46] 	Bur data processing took 1295ms, csvFile: Lot_1024071819_SYS5_Scan_06-12-2023_07-47-48
+[11:27:32] 	Bur data processing took 1567ms, csvFile: Lot_1020000001_SYS6_Scan_07-29-2024_10-00-29
+[11:27:32] 	Bur data processing took 11680ms, csvFile: Lot_SET 1_SYS6_Scan_07-29-2024_10-00-29
+[11:48:13] 	Updating fixture 0327
+[11:48:14] 	Fixture 0327 information is being sent to the cloud...
+[11:48:15] 	Fixture 0327 information was sent to the cloud...
+[11:51:33] 	Bur data processing took 627ms, csvFile: Lot_1030000009_SYS5_Scan_07-29-2024_07-33-12
+[11:51:33] 	Bur data processing took 11261ms, csvFile: Lot_SET 2_SYS5_Scan_07-29-2024_07-33-12
+[11:51:33] 	Bur data processing took 11966ms, csvFile: Lot_SET 2_SYS5_Scan_07-29-2024_07-33-12
+[11:51:34] 	Bur data processing took 12329ms, csvFile: Lot_SET 2_SYS5_Scan_07-29-2024_07-33-12
+[11:51:34] 	Bur data processing took 12826ms, csvFile: Lot_SET 2_SYS5_Scan_07-29-2024_07-33-12
+[11:51:34] 	Bur data processing took 13464ms, csvFile: Lot_SET 2_SYS5_Scan_07-29-2024_07-33-12
+[11:51:34] 	Bur data processing took 14207ms, csvFile: Lot_SET 2_SYS5_Scan_07-29-2024_07-33-12
+[11:51:34] 	Bur data processing took 23212ms, csvFile: Lot_SET 2_SYS5_Scan_07-29-2024_07-33-12
+[11:58:49] 	Bur data processing took 1304ms, csvFile: Lot_1030000009_SYS5_Scan_07-29-2024_07-33-12
+[12:00:05] 	Bur data processing took 1264ms, csvFile: Lot_1030000009_SYS5_Scan_07-29-2024_07-33-12

@@ -1,0 +1,71 @@
+{
+  "GCBins": [
+    {
+      "bin": null,
+      "lowerGC": 0,
+      "upperGC": 0,
+      "color": "#ffffff"
+    },
+    {
+      "bin": null,
+      "lowerGC": 0,
+      "upperGC": 0,
+      "color": "#ffffff"
+    },
+    {
+      "bin": null,
+      "lowerGC": 0,
+      "upperGC": 0,
+      "color": "#ffffff"
+    },
+    {
+      "bin": null,
+      "lowerGC": 0,
+      "upperGC": 0,
+      "color": "#ffffff"
+    },
+    {
+      "bin": null,
+      "lowerGC": 0,
+      "upperGC": 0,
+      "color": null
+    },
+    {
+      "bin": null,
+      "lowerGC": 0,
+      "upperGC": 0,
+      "color": null
+    },
+    {
+      "bin": null,
+      "lowerGC": 0,
+      "upperGC": 0,
+      "color": "#ffffff"
+    },
+    {
+      "bin": null,
+      "lowerGC": 0,
+      "upperGC": 0,
+      "color": "#ffffff"
+    },
+    {
+      "bin": null,
+      "lowerGC": 0,
+      "upperGC": 0,
+      "color": "#ffffff"
+    },
+    {
+      "bin": null,
+      "lowerGC": 0,
+      "upperGC": 0,
+      "color": "#ffffff"
+    }
+  ],
+  "MGPCutoffBin": {
+    "bin": null,
+    "MGP": 0,
+    "color": "#ffffff"
+  },
+  "version": 0,
+  "updatedTime": ""
+}

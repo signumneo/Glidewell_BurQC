@@ -1,0 +1,210 @@
+C:\Users\hyojin.han\Documents\Bitbucket\bur-inspection\User Interface\bin\Debug\User Interface.exe.config
+C:\Users\hyojin.han\Documents\Bitbucket\bur-inspection\User Interface\bin\Debug\User Interface.exe
+C:\Users\hyojin.han\Documents\Bitbucket\bur-inspection\User Interface\bin\Debug\User Interface.pdb
+C:\Users\hyojin.han\Documents\Bitbucket\bur-inspection\User Interface\bin\Debug\Amazon.Extensions.CognitoAuthentication.dll
+C:\Users\hyojin.han\Documents\Bitbucket\bur-inspection\User Interface\bin\Debug\Amazon.Lambda.Core.dll
+C:\Users\hyojin.han\Documents\Bitbucket\bur-inspection\User Interface\bin\Debug\AWSSDK.CognitoIdentity.dll
+C:\Users\hyojin.han\Documents\Bitbucket\bur-inspection\User Interface\bin\Debug\AWSSDK.CognitoIdentityProvider.dll
+C:\Users\hyojin.han\Documents\Bitbucket\bur-inspection\User Interface\bin\Debug\AWSSDK.Core.dll
+C:\Users\hyojin.han\Documents\Bitbucket\bur-inspection\User Interface\bin\Debug\AWSSDK.DynamoDBv2.dll
+C:\Users\hyojin.han\Documents\Bitbucket\bur-inspection\User Interface\bin\Debug\AWSSDK.Lambda.dll
+C:\Users\hyojin.han\Documents\Bitbucket\bur-inspection\User Interface\bin\Debug\AWSSDK.S3.dll
+C:\Users\hyojin.han\Documents\Bitbucket\bur-inspection\User Interface\bin\Debug\AWSSDK.SecurityToken.dll
+C:\Users\hyojin.han\Documents\Bitbucket\bur-inspection\User Interface\bin\Debug\AWSSDK.SimpleNotificationService.dll
+C:\Users\hyojin.han\Documents\Bitbucket\bur-inspection\User Interface\bin\Debug\AxInterop.AcroPDFLib.dll
+C:\Users\hyojin.han\Documents\Bitbucket\bur-inspection\User Interface\bin\Debug\Newtonsoft.Json.dll
+C:\Users\hyojin.han\Documents\Bitbucket\bur-inspection\User Interface\bin\Debug\PdfSharp.Charting.dll
+C:\Users\hyojin.han\Documents\Bitbucket\bur-inspection\User Interface\bin\Debug\PdfSharp.dll
+C:\Users\hyojin.han\Documents\Bitbucket\bur-inspection\User Interface\bin\Debug\QCBur_dll.dll
+C:\Users\hyojin.han\Documents\Bitbucket\bur-inspection\User Interface\bin\Debug\USB-Barcode-Scanner.dll
+C:\Users\hyojin.han\Documents\Bitbucket\bur-inspection\User Interface\bin\Debug\Interop.AcroPDFLib.dll
+C:\Users\hyojin.han\Documents\Bitbucket\bur-inspection\User Interface\bin\Debug\Amazon.Lambda.Core.xml
+C:\Users\hyojin.han\Documents\Bitbucket\bur-inspection\User Interface\bin\Debug\AWSSDK.CognitoIdentity.pdb
+C:\Users\hyojin.han\Documents\Bitbucket\bur-inspection\User Interface\bin\Debug\AWSSDK.CognitoIdentity.xml
+C:\Users\hyojin.han\Documents\Bitbucket\bur-inspection\User Interface\bin\Debug\AWSSDK.CognitoIdentityProvider.pdb
+C:\Users\hyojin.han\Documents\Bitbucket\bur-inspection\User Interface\bin\Debug\AWSSDK.CognitoIdentityProvider.xml
+C:\Users\hyojin.han\Documents\Bitbucket\bur-inspection\User Interface\bin\Debug\AWSSDK.Core.pdb
+C:\Users\hyojin.han\Documents\Bitbucket\bur-inspection\User Interface\bin\Debug\AWSSDK.Core.xml
+C:\Users\hyojin.han\Documents\Bitbucket\bur-inspection\User Interface\bin\Debug\AWSSDK.DynamoDBv2.pdb
+C:\Users\hyojin.han\Documents\Bitbucket\bur-inspection\User Interface\bin\Debug\AWSSDK.DynamoDBv2.xml
+C:\Users\hyojin.han\Documents\Bitbucket\bur-inspection\User Interface\bin\Debug\AWSSDK.Lambda.pdb
+C:\Users\hyojin.han\Documents\Bitbucket\bur-inspection\User Interface\bin\Debug\AWSSDK.Lambda.xml
+C:\Users\hyojin.han\Documents\Bitbucket\bur-inspection\User Interface\bin\Debug\AWSSDK.S3.pdb
+C:\Users\hyojin.han\Documents\Bitbucket\bur-inspection\User Interface\bin\Debug\AWSSDK.S3.xml
+C:\Users\hyojin.han\Documents\Bitbucket\bur-inspection\User Interface\bin\Debug\AWSSDK.SecurityToken.pdb
+C:\Users\hyojin.han\Documents\Bitbucket\bur-inspection\User Interface\bin\Debug\AWSSDK.SecurityToken.xml
+C:\Users\hyojin.han\Documents\Bitbucket\bur-inspection\User Interface\bin\Debug\AWSSDK.SimpleNotificationService.pdb
+C:\Users\hyojin.han\Documents\Bitbucket\bur-inspection\User Interface\bin\Debug\AWSSDK.SimpleNotificationService.xml
+C:\Users\hyojin.han\Documents\Bitbucket\bur-inspection\User Interface\bin\Debug\Newtonsoft.Json.xml
+C:\Users\hyojin.han\Documents\Bitbucket\bur-inspection\User Interface\bin\Debug\PdfSharp.xml
+C:\Users\hyojin.han\Documents\Bitbucket\bur-inspection\User Interface\bin\Debug\PdfSharp.Charting.xml
+C:\Users\hyojin.han\Documents\Bitbucket\bur-inspection\User Interface\bin\Debug\de\PdfSharp.resources.dll
+C:\Users\hyojin.han\Documents\Bitbucket\bur-inspection\User Interface\bin\Debug\de\PdfSharp.Charting.resources.dll
+C:\Users\hyojin.han\Documents\Bitbucket\bur-inspection\User Interface\obj\Debug\User Interface.csproj.AssemblyReference.cache
+C:\Users\hyojin.han\Documents\Bitbucket\bur-inspection\User Interface\obj\Debug\User Interface.csproj.ResolveComReference.cache
+C:\Users\hyojin.han\Documents\Bitbucket\bur-inspection\User Interface\obj\Debug\User_Interface.BadScanSelector.resources
+C:\Users\hyojin.han\Documents\Bitbucket\bur-inspection\User Interface\obj\Debug\User_Interface.BadScanSelectorForm.resources
+C:\Users\hyojin.han\Documents\Bitbucket\bur-inspection\User Interface\obj\Debug\User_Interface.FixtureTransfer.resources
+C:\Users\hyojin.han\Documents\Bitbucket\bur-inspection\User Interface\obj\Debug\User_Interface.InHouseBurScan.resources
+C:\Users\hyojin.han\Documents\Bitbucket\bur-inspection\User Interface\obj\Debug\User_Interface.RDBinSettings.resources
+C:\Users\hyojin.han\Documents\Bitbucket\bur-inspection\User Interface\obj\Debug\User_Interface.BinSettings.resources
+C:\Users\hyojin.han\Documents\Bitbucket\bur-inspection\User Interface\obj\Debug\User_Interface.BurSideScanPerLotUserControl.resources
+C:\Users\hyojin.han\Documents\Bitbucket\bur-inspection\User Interface\obj\Debug\User_Interface.BurSideScanUserControl.resources
+C:\Users\hyojin.han\Documents\Bitbucket\bur-inspection\User Interface\obj\Debug\User_Interface.BusyWindow.resources
+C:\Users\hyojin.han\Documents\Bitbucket\bur-inspection\User Interface\obj\Debug\User_Interface.Form1.resources
+C:\Users\hyojin.han\Documents\Bitbucket\bur-inspection\User Interface\obj\Debug\User_Interface.HomeUserControl.resources
+C:\Users\hyojin.han\Documents\Bitbucket\bur-inspection\User Interface\obj\Debug\User_Interface.InHouseBurInspection.resources
+C:\Users\hyojin.han\Documents\Bitbucket\bur-inspection\User Interface\obj\Debug\User_Interface.LotNumberCorrectorForm.resources
+C:\Users\hyojin.han\Documents\Bitbucket\bur-inspection\User Interface\obj\Debug\User_Interface.PDFViewer.resources
+C:\Users\hyojin.han\Documents\Bitbucket\bur-inspection\User Interface\obj\Debug\User_Interface.Properties.Resources.resources
+C:\Users\hyojin.han\Documents\Bitbucket\bur-inspection\User Interface\obj\Debug\User_Interface.InstructionsUserControl.resources
+C:\Users\hyojin.han\Documents\Bitbucket\bur-inspection\User Interface\obj\Debug\User_Interface.RDSettings.resources
+C:\Users\hyojin.han\Documents\Bitbucket\bur-inspection\User Interface\obj\Debug\User_Interface.Settings.resources
+C:\Users\hyojin.han\Documents\Bitbucket\bur-inspection\User Interface\obj\Debug\User_Interface.SideScanUserControl.resources
+C:\Users\hyojin.han\Documents\Bitbucket\bur-inspection\User Interface\obj\Debug\User_Interface.Sorting.resources
+C:\Users\hyojin.han\Documents\Bitbucket\bur-inspection\User Interface\obj\Debug\User_Interface.TipScan1To1.resources
+C:\Users\hyojin.han\Documents\Bitbucket\bur-inspection\User Interface\obj\Debug\User Interface.csproj.GenerateResource.cache
+C:\Users\hyojin.han\Documents\Bitbucket\bur-inspection\User Interface\obj\Debug\User Interface.csproj.CoreCompileInputs.cache
+C:\Users\hyojin.han\Documents\Bitbucket\bur-inspection\User Interface\obj\Debug\User Interface.csproj.CopyComplete
+C:\Users\hyojin.han\Documents\Bitbucket\bur-inspection\User Interface\obj\Debug\User Interface.exe
+C:\Users\hyojin.han\Documents\Bitbucket\bur-inspection\User Interface\obj\Debug\User Interface.pdb
+D:\Jacob Thomas\Work Files\Full Time 2024\Glidewell - BurQC\burinspection_feature_bin-config\User Interface\bin\Debug\User Interface.exe.config
+D:\Jacob Thomas\Work Files\Full Time 2024\Glidewell - BurQC\burinspection_feature_bin-config\User Interface\bin\Debug\User Interface.exe
+D:\Jacob Thomas\Work Files\Full Time 2024\Glidewell - BurQC\burinspection_feature_bin-config\User Interface\bin\Debug\User Interface.pdb
+D:\Jacob Thomas\Work Files\Full Time 2024\Glidewell - BurQC\burinspection_feature_bin-config\User Interface\bin\Debug\Amazon.Extensions.CognitoAuthentication.dll
+D:\Jacob Thomas\Work Files\Full Time 2024\Glidewell - BurQC\burinspection_feature_bin-config\User Interface\bin\Debug\Amazon.Lambda.Core.dll
+D:\Jacob Thomas\Work Files\Full Time 2024\Glidewell - BurQC\burinspection_feature_bin-config\User Interface\bin\Debug\AWSSDK.CognitoIdentity.dll
+D:\Jacob Thomas\Work Files\Full Time 2024\Glidewell - BurQC\burinspection_feature_bin-config\User Interface\bin\Debug\AWSSDK.CognitoIdentityProvider.dll
+D:\Jacob Thomas\Work Files\Full Time 2024\Glidewell - BurQC\burinspection_feature_bin-config\User Interface\bin\Debug\AWSSDK.Core.dll
+D:\Jacob Thomas\Work Files\Full Time 2024\Glidewell - BurQC\burinspection_feature_bin-config\User Interface\bin\Debug\AWSSDK.DynamoDBv2.dll
+D:\Jacob Thomas\Work Files\Full Time 2024\Glidewell - BurQC\burinspection_feature_bin-config\User Interface\bin\Debug\AWSSDK.Lambda.dll
+D:\Jacob Thomas\Work Files\Full Time 2024\Glidewell - BurQC\burinspection_feature_bin-config\User Interface\bin\Debug\AWSSDK.S3.dll
+D:\Jacob Thomas\Work Files\Full Time 2024\Glidewell - BurQC\burinspection_feature_bin-config\User Interface\bin\Debug\AWSSDK.SecurityToken.dll
+D:\Jacob Thomas\Work Files\Full Time 2024\Glidewell - BurQC\burinspection_feature_bin-config\User Interface\bin\Debug\AWSSDK.SimpleNotificationService.dll
+D:\Jacob Thomas\Work Files\Full Time 2024\Glidewell - BurQC\burinspection_feature_bin-config\User Interface\bin\Debug\AxInterop.AcroPDFLib.dll
+D:\Jacob Thomas\Work Files\Full Time 2024\Glidewell - BurQC\burinspection_feature_bin-config\User Interface\bin\Debug\Newtonsoft.Json.dll
+D:\Jacob Thomas\Work Files\Full Time 2024\Glidewell - BurQC\burinspection_feature_bin-config\User Interface\bin\Debug\PdfSharp.Charting.dll
+D:\Jacob Thomas\Work Files\Full Time 2024\Glidewell - BurQC\burinspection_feature_bin-config\User Interface\bin\Debug\PdfSharp.dll
+D:\Jacob Thomas\Work Files\Full Time 2024\Glidewell - BurQC\burinspection_feature_bin-config\User Interface\bin\Debug\QCBur_dll.dll
+D:\Jacob Thomas\Work Files\Full Time 2024\Glidewell - BurQC\burinspection_feature_bin-config\User Interface\bin\Debug\USB-Barcode-Scanner.dll
+D:\Jacob Thomas\Work Files\Full Time 2024\Glidewell - BurQC\burinspection_feature_bin-config\User Interface\bin\Debug\Interop.AcroPDFLib.dll
+D:\Jacob Thomas\Work Files\Full Time 2024\Glidewell - BurQC\burinspection_feature_bin-config\User Interface\bin\Debug\Amazon.Lambda.Core.xml
+D:\Jacob Thomas\Work Files\Full Time 2024\Glidewell - BurQC\burinspection_feature_bin-config\User Interface\bin\Debug\AWSSDK.CognitoIdentity.pdb
+D:\Jacob Thomas\Work Files\Full Time 2024\Glidewell - BurQC\burinspection_feature_bin-config\User Interface\bin\Debug\AWSSDK.CognitoIdentity.xml
+D:\Jacob Thomas\Work Files\Full Time 2024\Glidewell - BurQC\burinspection_feature_bin-config\User Interface\bin\Debug\AWSSDK.CognitoIdentityProvider.pdb
+D:\Jacob Thomas\Work Files\Full Time 2024\Glidewell - BurQC\burinspection_feature_bin-config\User Interface\bin\Debug\AWSSDK.CognitoIdentityProvider.xml
+D:\Jacob Thomas\Work Files\Full Time 2024\Glidewell - BurQC\burinspection_feature_bin-config\User Interface\bin\Debug\AWSSDK.Core.pdb
+D:\Jacob Thomas\Work Files\Full Time 2024\Glidewell - BurQC\burinspection_feature_bin-config\User Interface\bin\Debug\AWSSDK.Core.xml
+D:\Jacob Thomas\Work Files\Full Time 2024\Glidewell - BurQC\burinspection_feature_bin-config\User Interface\bin\Debug\AWSSDK.DynamoDBv2.pdb
+D:\Jacob Thomas\Work Files\Full Time 2024\Glidewell - BurQC\burinspection_feature_bin-config\User Interface\bin\Debug\AWSSDK.DynamoDBv2.xml
+D:\Jacob Thomas\Work Files\Full Time 2024\Glidewell - BurQC\burinspection_feature_bin-config\User Interface\bin\Debug\AWSSDK.Lambda.pdb
+D:\Jacob Thomas\Work Files\Full Time 2024\Glidewell - BurQC\burinspection_feature_bin-config\User Interface\bin\Debug\AWSSDK.Lambda.xml
+D:\Jacob Thomas\Work Files\Full Time 2024\Glidewell - BurQC\burinspection_feature_bin-config\User Interface\bin\Debug\AWSSDK.S3.pdb
+D:\Jacob Thomas\Work Files\Full Time 2024\Glidewell - BurQC\burinspection_feature_bin-config\User Interface\bin\Debug\AWSSDK.S3.xml
+D:\Jacob Thomas\Work Files\Full Time 2024\Glidewell - BurQC\burinspection_feature_bin-config\User Interface\bin\Debug\AWSSDK.SecurityToken.pdb
+D:\Jacob Thomas\Work Files\Full Time 2024\Glidewell - BurQC\burinspection_feature_bin-config\User Interface\bin\Debug\AWSSDK.SecurityToken.xml
+D:\Jacob Thomas\Work Files\Full Time 2024\Glidewell - BurQC\burinspection_feature_bin-config\User Interface\bin\Debug\AWSSDK.SimpleNotificationService.pdb
+D:\Jacob Thomas\Work Files\Full Time 2024\Glidewell - BurQC\burinspection_feature_bin-config\User Interface\bin\Debug\AWSSDK.SimpleNotificationService.xml
+D:\Jacob Thomas\Work Files\Full Time 2024\Glidewell - BurQC\burinspection_feature_bin-config\User Interface\bin\Debug\Newtonsoft.Json.xml
+D:\Jacob Thomas\Work Files\Full Time 2024\Glidewell - BurQC\burinspection_feature_bin-config\User Interface\bin\Debug\PdfSharp.xml
+D:\Jacob Thomas\Work Files\Full Time 2024\Glidewell - BurQC\burinspection_feature_bin-config\User Interface\bin\Debug\PdfSharp.Charting.xml
+D:\Jacob Thomas\Work Files\Full Time 2024\Glidewell - BurQC\burinspection_feature_bin-config\User Interface\bin\Debug\de\PdfSharp.resources.dll
+D:\Jacob Thomas\Work Files\Full Time 2024\Glidewell - BurQC\burinspection_feature_bin-config\User Interface\bin\Debug\de\PdfSharp.Charting.resources.dll
+D:\Jacob Thomas\Work Files\Full Time 2024\Glidewell - BurQC\burinspection_feature_bin-config\User Interface\obj\Debug\User Interface.csproj.AssemblyReference.cache
+D:\Jacob Thomas\Work Files\Full Time 2024\Glidewell - BurQC\burinspection_feature_bin-config\User Interface\obj\Debug\User Interface.csproj.ResolveComReference.cache
+D:\Jacob Thomas\Work Files\Full Time 2024\Glidewell - BurQC\burinspection_feature_bin-config\User Interface\obj\Debug\User_Interface.BadScanSelector.resources
+D:\Jacob Thomas\Work Files\Full Time 2024\Glidewell - BurQC\burinspection_feature_bin-config\User Interface\obj\Debug\User_Interface.BadScanSelectorForm.resources
+D:\Jacob Thomas\Work Files\Full Time 2024\Glidewell - BurQC\burinspection_feature_bin-config\User Interface\obj\Debug\User_Interface.FixtureTransfer.resources
+D:\Jacob Thomas\Work Files\Full Time 2024\Glidewell - BurQC\burinspection_feature_bin-config\User Interface\obj\Debug\User_Interface.InHouseBurScan.resources
+D:\Jacob Thomas\Work Files\Full Time 2024\Glidewell - BurQC\burinspection_feature_bin-config\User Interface\obj\Debug\User_Interface.RDBinSettings.resources
+D:\Jacob Thomas\Work Files\Full Time 2024\Glidewell - BurQC\burinspection_feature_bin-config\User Interface\obj\Debug\User_Interface.BinSettings.resources
+D:\Jacob Thomas\Work Files\Full Time 2024\Glidewell - BurQC\burinspection_feature_bin-config\User Interface\obj\Debug\User_Interface.BurSideScanPerLotUserControl.resources
+D:\Jacob Thomas\Work Files\Full Time 2024\Glidewell - BurQC\burinspection_feature_bin-config\User Interface\obj\Debug\User_Interface.BurSideScanUserControl.resources
+D:\Jacob Thomas\Work Files\Full Time 2024\Glidewell - BurQC\burinspection_feature_bin-config\User Interface\obj\Debug\User_Interface.BusyWindow.resources
+D:\Jacob Thomas\Work Files\Full Time 2024\Glidewell - BurQC\burinspection_feature_bin-config\User Interface\obj\Debug\User_Interface.Form1.resources
+D:\Jacob Thomas\Work Files\Full Time 2024\Glidewell - BurQC\burinspection_feature_bin-config\User Interface\obj\Debug\User_Interface.HomeUserControl.resources
+D:\Jacob Thomas\Work Files\Full Time 2024\Glidewell - BurQC\burinspection_feature_bin-config\User Interface\obj\Debug\User_Interface.InHouseBurInspection.resources
+D:\Jacob Thomas\Work Files\Full Time 2024\Glidewell - BurQC\burinspection_feature_bin-config\User Interface\obj\Debug\User_Interface.LotNumberCorrectorForm.resources
+D:\Jacob Thomas\Work Files\Full Time 2024\Glidewell - BurQC\burinspection_feature_bin-config\User Interface\obj\Debug\User_Interface.PDFViewer.resources
+D:\Jacob Thomas\Work Files\Full Time 2024\Glidewell - BurQC\burinspection_feature_bin-config\User Interface\obj\Debug\User_Interface.Properties.Resources.resources
+D:\Jacob Thomas\Work Files\Full Time 2024\Glidewell - BurQC\burinspection_feature_bin-config\User Interface\obj\Debug\User_Interface.InstructionsUserControl.resources
+D:\Jacob Thomas\Work Files\Full Time 2024\Glidewell - BurQC\burinspection_feature_bin-config\User Interface\obj\Debug\User_Interface.RDSettings.resources
+D:\Jacob Thomas\Work Files\Full Time 2024\Glidewell - BurQC\burinspection_feature_bin-config\User Interface\obj\Debug\User_Interface.Settings.resources
+D:\Jacob Thomas\Work Files\Full Time 2024\Glidewell - BurQC\burinspection_feature_bin-config\User Interface\obj\Debug\User_Interface.SideScanUserControl.resources
+D:\Jacob Thomas\Work Files\Full Time 2024\Glidewell - BurQC\burinspection_feature_bin-config\User Interface\obj\Debug\User_Interface.Sorting.resources
+D:\Jacob Thomas\Work Files\Full Time 2024\Glidewell - BurQC\burinspection_feature_bin-config\User Interface\obj\Debug\User_Interface.TipScan1To1.resources
+D:\Jacob Thomas\Work Files\Full Time 2024\Glidewell - BurQC\burinspection_feature_bin-config\User Interface\obj\Debug\User Interface.csproj.GenerateResource.cache
+D:\Jacob Thomas\Work Files\Full Time 2024\Glidewell - BurQC\burinspection_feature_bin-config\User Interface\obj\Debug\User Interface.csproj.CoreCompileInputs.cache
+D:\Jacob Thomas\Work Files\Full Time 2024\Glidewell - BurQC\burinspection_feature_bin-config\User Interface\obj\Debug\User Int.AB53A726.Up2Date
+D:\Jacob Thomas\Work Files\Full Time 2024\Glidewell - BurQC\burinspection_feature_bin-config\User Interface\obj\Debug\User Interface.exe
+D:\Jacob Thomas\Work Files\Full Time 2024\Glidewell - BurQC\burinspection_feature_bin-config\User Interface\obj\Debug\User Interface.pdb
+D:\Work Files\Full Time 2024\Glidewell - BurQC\branch\burinspection\User Interface\bin\Debug\User Interface.exe.config
+D:\Work Files\Full Time 2024\Glidewell - BurQC\branch\burinspection\User Interface\bin\Debug\User Interface.exe
+D:\Work Files\Full Time 2024\Glidewell - BurQC\branch\burinspection\User Interface\bin\Debug\User Interface.pdb
+D:\Work Files\Full Time 2024\Glidewell - BurQC\branch\burinspection\User Interface\bin\Debug\Amazon.Extensions.CognitoAuthentication.dll
+D:\Work Files\Full Time 2024\Glidewell - BurQC\branch\burinspection\User Interface\bin\Debug\Amazon.Lambda.Core.dll
+D:\Work Files\Full Time 2024\Glidewell - BurQC\branch\burinspection\User Interface\bin\Debug\AWSSDK.CognitoIdentity.dll
+D:\Work Files\Full Time 2024\Glidewell - BurQC\branch\burinspection\User Interface\bin\Debug\AWSSDK.CognitoIdentityProvider.dll
+D:\Work Files\Full Time 2024\Glidewell - BurQC\branch\burinspection\User Interface\bin\Debug\AWSSDK.Core.dll
+D:\Work Files\Full Time 2024\Glidewell - BurQC\branch\burinspection\User Interface\bin\Debug\AWSSDK.DynamoDBv2.dll
+D:\Work Files\Full Time 2024\Glidewell - BurQC\branch\burinspection\User Interface\bin\Debug\AWSSDK.Lambda.dll
+D:\Work Files\Full Time 2024\Glidewell - BurQC\branch\burinspection\User Interface\bin\Debug\AWSSDK.S3.dll
+D:\Work Files\Full Time 2024\Glidewell - BurQC\branch\burinspection\User Interface\bin\Debug\AWSSDK.SecurityToken.dll
+D:\Work Files\Full Time 2024\Glidewell - BurQC\branch\burinspection\User Interface\bin\Debug\AWSSDK.SimpleNotificationService.dll
+D:\Work Files\Full Time 2024\Glidewell - BurQC\branch\burinspection\User Interface\bin\Debug\AxInterop.AcroPDFLib.dll
+D:\Work Files\Full Time 2024\Glidewell - BurQC\branch\burinspection\User Interface\bin\Debug\Newtonsoft.Json.dll
+D:\Work Files\Full Time 2024\Glidewell - BurQC\branch\burinspection\User Interface\bin\Debug\PdfSharp.Charting.dll
+D:\Work Files\Full Time 2024\Glidewell - BurQC\branch\burinspection\User Interface\bin\Debug\PdfSharp.dll
+D:\Work Files\Full Time 2024\Glidewell - BurQC\branch\burinspection\User Interface\bin\Debug\QCBur_dll.dll
+D:\Work Files\Full Time 2024\Glidewell - BurQC\branch\burinspection\User Interface\bin\Debug\USB-Barcode-Scanner.dll
+D:\Work Files\Full Time 2024\Glidewell - BurQC\branch\burinspection\User Interface\bin\Debug\Interop.AcroPDFLib.dll
+D:\Work Files\Full Time 2024\Glidewell - BurQC\branch\burinspection\User Interface\bin\Debug\Amazon.Lambda.Core.xml
+D:\Work Files\Full Time 2024\Glidewell - BurQC\branch\burinspection\User Interface\bin\Debug\AWSSDK.CognitoIdentity.pdb
+D:\Work Files\Full Time 2024\Glidewell - BurQC\branch\burinspection\User Interface\bin\Debug\AWSSDK.CognitoIdentity.xml
+D:\Work Files\Full Time 2024\Glidewell - BurQC\branch\burinspection\User Interface\bin\Debug\AWSSDK.CognitoIdentityProvider.pdb
+D:\Work Files\Full Time 2024\Glidewell - BurQC\branch\burinspection\User Interface\bin\Debug\AWSSDK.CognitoIdentityProvider.xml
+D:\Work Files\Full Time 2024\Glidewell - BurQC\branch\burinspection\User Interface\bin\Debug\AWSSDK.Core.pdb
+D:\Work Files\Full Time 2024\Glidewell - BurQC\branch\burinspection\User Interface\bin\Debug\AWSSDK.Core.xml
+D:\Work Files\Full Time 2024\Glidewell - BurQC\branch\burinspection\User Interface\bin\Debug\AWSSDK.DynamoDBv2.pdb
+D:\Work Files\Full Time 2024\Glidewell - BurQC\branch\burinspection\User Interface\bin\Debug\AWSSDK.DynamoDBv2.xml
+D:\Work Files\Full Time 2024\Glidewell - BurQC\branch\burinspection\User Interface\bin\Debug\AWSSDK.Lambda.pdb
+D:\Work Files\Full Time 2024\Glidewell - BurQC\branch\burinspection\User Interface\bin\Debug\AWSSDK.Lambda.xml
+D:\Work Files\Full Time 2024\Glidewell - BurQC\branch\burinspection\User Interface\bin\Debug\AWSSDK.S3.pdb
+D:\Work Files\Full Time 2024\Glidewell - BurQC\branch\burinspection\User Interface\bin\Debug\AWSSDK.S3.xml
+D:\Work Files\Full Time 2024\Glidewell - BurQC\branch\burinspection\User Interface\bin\Debug\AWSSDK.SecurityToken.pdb
+D:\Work Files\Full Time 2024\Glidewell - BurQC\branch\burinspection\User Interface\bin\Debug\AWSSDK.SecurityToken.xml
+D:\Work Files\Full Time 2024\Glidewell - BurQC\branch\burinspection\User Interface\bin\Debug\AWSSDK.SimpleNotificationService.pdb
+D:\Work Files\Full Time 2024\Glidewell - BurQC\branch\burinspection\User Interface\bin\Debug\AWSSDK.SimpleNotificationService.xml
+D:\Work Files\Full Time 2024\Glidewell - BurQC\branch\burinspection\User Interface\bin\Debug\Newtonsoft.Json.xml
+D:\Work Files\Full Time 2024\Glidewell - BurQC\branch\burinspection\User Interface\bin\Debug\PdfSharp.xml
+D:\Work Files\Full Time 2024\Glidewell - BurQC\branch\burinspection\User Interface\bin\Debug\PdfSharp.Charting.xml
+D:\Work Files\Full Time 2024\Glidewell - BurQC\branch\burinspection\User Interface\bin\Debug\de\PdfSharp.resources.dll
+D:\Work Files\Full Time 2024\Glidewell - BurQC\branch\burinspection\User Interface\bin\Debug\de\PdfSharp.Charting.resources.dll
+D:\Work Files\Full Time 2024\Glidewell - BurQC\branch\burinspection\User Interface\obj\Debug\User Interface.csproj.AssemblyReference.cache
+D:\Work Files\Full Time 2024\Glidewell - BurQC\branch\burinspection\User Interface\obj\Debug\User Interface.csproj.ResolveComReference.cache
+D:\Work Files\Full Time 2024\Glidewell - BurQC\branch\burinspection\User Interface\obj\Debug\User_Interface.BadScanSelector.resources
+D:\Work Files\Full Time 2024\Glidewell - BurQC\branch\burinspection\User Interface\obj\Debug\User_Interface.BadScanSelectorForm.resources
+D:\Work Files\Full Time 2024\Glidewell - BurQC\branch\burinspection\User Interface\obj\Debug\User_Interface.FixtureTransfer.resources
+D:\Work Files\Full Time 2024\Glidewell - BurQC\branch\burinspection\User Interface\obj\Debug\User_Interface.InHouseBurScan.resources
+D:\Work Files\Full Time 2024\Glidewell - BurQC\branch\burinspection\User Interface\obj\Debug\User_Interface.RDBinSettings.resources
+D:\Work Files\Full Time 2024\Glidewell - BurQC\branch\burinspection\User Interface\obj\Debug\User_Interface.BinSettings.resources
+D:\Work Files\Full Time 2024\Glidewell - BurQC\branch\burinspection\User Interface\obj\Debug\User_Interface.BurSideScanPerLotUserControl.resources
+D:\Work Files\Full Time 2024\Glidewell - BurQC\branch\burinspection\User Interface\obj\Debug\User_Interface.BurSideScanUserControl.resources
+D:\Work Files\Full Time 2024\Glidewell - BurQC\branch\burinspection\User Interface\obj\Debug\User_Interface.BusyWindow.resources
+D:\Work Files\Full Time 2024\Glidewell - BurQC\branch\burinspection\User Interface\obj\Debug\User_Interface.Form1.resources
+D:\Work Files\Full Time 2024\Glidewell - BurQC\branch\burinspection\User Interface\obj\Debug\User_Interface.HomeUserControl.resources
+D:\Work Files\Full Time 2024\Glidewell - BurQC\branch\burinspection\User Interface\obj\Debug\User_Interface.InHouseBurInspection.resources
+D:\Work Files\Full Time 2024\Glidewell - BurQC\branch\burinspection\User Interface\obj\Debug\User_Interface.LotNumberCorrectorForm.resources
+D:\Work Files\Full Time 2024\Glidewell - BurQC\branch\burinspection\User Interface\obj\Debug\User_Interface.PDFViewer.resources
+D:\Work Files\Full Time 2024\Glidewell - BurQC\branch\burinspection\User Interface\obj\Debug\User_Interface.Properties.Resources.resources
+D:\Work Files\Full Time 2024\Glidewell - BurQC\branch\burinspection\User Interface\obj\Debug\User_Interface.InstructionsUserControl.resources
+D:\Work Files\Full Time 2024\Glidewell - BurQC\branch\burinspection\User Interface\obj\Debug\User_Interface.RDSettings.resources
+D:\Work Files\Full Time 2024\Glidewell - BurQC\branch\burinspection\User Interface\obj\Debug\User_Interface.Settings.resources
+D:\Work Files\Full Time 2024\Glidewell - BurQC\branch\burinspection\User Interface\obj\Debug\User_Interface.SideScanUserControl.resources
+D:\Work Files\Full Time 2024\Glidewell - BurQC\branch\burinspection\User Interface\obj\Debug\User_Interface.Sorting.resources
+D:\Work Files\Full Time 2024\Glidewell - BurQC\branch\burinspection\User Interface\obj\Debug\User_Interface.TipScan1To1.resources
+D:\Work Files\Full Time 2024\Glidewell - BurQC\branch\burinspection\User Interface\obj\Debug\User Interface.csproj.GenerateResource.cache
+D:\Work Files\Full Time 2024\Glidewell - BurQC\branch\burinspection\User Interface\obj\Debug\User Interface.csproj.CoreCompileInputs.cache
+D:\Work Files\Full Time 2024\Glidewell - BurQC\branch\burinspection\User Interface\obj\Debug\User Int.AB53A726.Up2Date
+D:\Work Files\Full Time 2024\Glidewell - BurQC\branch\burinspection\User Interface\obj\Debug\User Interface.exe
+D:\Work Files\Full Time 2024\Glidewell - BurQC\branch\burinspection\User Interface\obj\Debug\User Interface.pdb

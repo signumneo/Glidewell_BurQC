@@ -1,0 +1,387 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{2B2A9352-D9E3-4939-B83C-DD855AFF39DD}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>User_Interface</RootNamespace>
+    <AssemblyName>User Interface</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Amazon.Extensions.CognitoAuthentication, Version=1.0.0.0, Culture=neutral, PublicKeyToken=885c28607f98e604, processorArchitecture=MSIL">
+      <HintPath>..\packages\Amazon.Extensions.CognitoAuthentication.2.3.1\lib\netstandard2.0\Amazon.Extensions.CognitoAuthentication.dll</HintPath>
+    </Reference>
+    <Reference Include="Amazon.Lambda.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=885c28607f98e604, processorArchitecture=MSIL">
+      <HintPath>..\packages\Amazon.Lambda.Core.2.2.0\lib\netstandard2.0\Amazon.Lambda.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="AWSSDK.CognitoIdentity, Version=3.3.0.0, Culture=neutral, PublicKeyToken=885c28607f98e604, processorArchitecture=MSIL">
+      <HintPath>..\packages\AWSSDK.CognitoIdentity.3.7.0.2\lib\net45\AWSSDK.CognitoIdentity.dll</HintPath>
+    </Reference>
+    <Reference Include="AWSSDK.CognitoIdentityProvider, Version=3.3.0.0, Culture=neutral, PublicKeyToken=885c28607f98e604, processorArchitecture=MSIL">
+      <HintPath>..\packages\AWSSDK.CognitoIdentityProvider.3.7.0.2\lib\net45\AWSSDK.CognitoIdentityProvider.dll</HintPath>
+    </Reference>
+    <Reference Include="AWSSDK.Core, Version=3.3.0.0, Culture=neutral, PublicKeyToken=885c28607f98e604, processorArchitecture=MSIL">
+      <HintPath>..\packages\AWSSDK.Core.3.7.304.19\lib\net45\AWSSDK.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="AWSSDK.DynamoDBv2, Version=3.3.0.0, Culture=neutral, PublicKeyToken=885c28607f98e604, processorArchitecture=MSIL">
+      <HintPath>..\packages\AWSSDK.DynamoDBv2.3.7.102.20\lib\net45\AWSSDK.DynamoDBv2.dll</HintPath>
+    </Reference>
+    <Reference Include="AWSSDK.Lambda, Version=3.3.0.0, Culture=neutral, PublicKeyToken=885c28607f98e604, processorArchitecture=MSIL">
+      <HintPath>..\packages\AWSSDK.Lambda.3.7.305.40\lib\net45\AWSSDK.Lambda.dll</HintPath>
+    </Reference>
+    <Reference Include="AWSSDK.S3, Version=3.3.0.0, Culture=neutral, PublicKeyToken=885c28607f98e604, processorArchitecture=MSIL">
+      <HintPath>..\packages\AWSSDK.S3.3.7.104.21\lib\net45\AWSSDK.S3.dll</HintPath>
+    </Reference>
+    <Reference Include="AWSSDK.SecurityToken, Version=3.3.0.0, Culture=neutral, PublicKeyToken=885c28607f98e604, processorArchitecture=MSIL">
+      <HintPath>..\packages\AWSSDK.SecurityToken.3.7.0.2\lib\net45\AWSSDK.SecurityToken.dll</HintPath>
+    </Reference>
+    <Reference Include="AWSSDK.SimpleNotificationService, Version=3.3.0.0, Culture=neutral, PublicKeyToken=885c28607f98e604, processorArchitecture=MSIL">
+      <HintPath>..\packages\AWSSDK.SimpleNotificationService.3.7.101.68\lib\net45\AWSSDK.SimpleNotificationService.dll</HintPath>
+    </Reference>
+    <Reference Include="AxInterop.AcroPDFLib">
+      <HintPath>..\bin\Debug\AxInterop.AcroPDFLib.dll</HintPath>
+    </Reference>
+    <Reference Include="itextsharp, Version=5.5.14.0, Culture=neutral, PublicKeyToken=8354ae6d2174ddca, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\itextsharp.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=13.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.13.0.3\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="PdfSharp, Version=1.50.5147.0, Culture=neutral, PublicKeyToken=f94615aa0424f9eb, processorArchitecture=MSIL">
+      <HintPath>..\packages\PDFsharp.1.50.5147\lib\net20\PdfSharp.dll</HintPath>
+    </Reference>
+    <Reference Include="PdfSharp.Charting, Version=1.50.5147.0, Culture=neutral, PublicKeyToken=f94615aa0424f9eb, processorArchitecture=MSIL">
+      <HintPath>..\packages\PDFsharp.1.50.5147\lib\net20\PdfSharp.Charting.dll</HintPath>
+    </Reference>
+    <Reference Include="PresentationFramework" />
+    <Reference Include="QCBur_dll, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\QCBur_dll.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.IO.Compression" />
+    <Reference Include="System.IO.Compression.FileSystem" />
+    <Reference Include="System.Windows" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="USB-Barcode-Scanner">
+      <HintPath>..\USB-Barcode-Scanner-Library\USB-Barcode-Scanner.dll</HintPath>
+    </Reference>
+    <Reference Include="WindowsBase" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="1to1TraceabilityFunctions\BurBagging.cs" />
+    <Compile Include="1to1TraceabilityFunctions\BurScan.cs" />
+    <Compile Include="1to1TraceabilityFunctions\FileManagement.cs" />
+    <Compile Include="AWSSimpleLambda.cs" />
+    <Compile Include="BadScanSelector.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BadScanSelector.Designer.cs">
+      <DependentUpon>BadScanSelector.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BadScanSelectorForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BadScanSelectorForm.Designer.cs">
+      <DependentUpon>BadScanSelectorForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FixtureTransfer.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="FixtureTransfer.Designer.cs">
+      <DependentUpon>FixtureTransfer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="InHouseBurScan.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="InHouseBurScan.Designer.cs">
+      <DependentUpon>InHouseBurScan.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Logger.cs" />
+    <Compile Include="RDBinSettings.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="RDBinSettings.Designer.cs">
+      <DependentUpon>RDBinSettings.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BinSettings.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="BinSettings.Designer.cs">
+      <DependentUpon>BinSettings.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BurSideScanPerLotUserControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="BurSideScanPerLotUserControl.Designer.cs">
+      <DependentUpon>BurSideScanPerLotUserControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BurSideScanUserControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="BurSideScanUserControl.Designer.cs">
+      <DependentUpon>BurSideScanUserControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BusyWindow.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="BusyWindow.Designer.cs">
+      <DependentUpon>BusyWindow.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CircularButton.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Cloud\mCloud.cs" />
+    <Compile Include="CSVFunctions.cs" />
+    <Compile Include="FilesFunctions.cs" />
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Global_constants.cs" />
+    <Compile Include="HomeUserControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="HomeUserControl.Designer.cs">
+      <DependentUpon>HomeUserControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="InHouseBurInspection.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="InHouseBurInspection.Designer.cs">
+      <DependentUpon>InHouseBurInspection.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LotNumberCorrectorForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LotNumberCorrectorForm.Designer.cs">
+      <DependentUpon>LotNumberCorrectorForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Main\GF.cs" />
+    <Compile Include="Main\GV.cs" />
+    <Compile Include="MathFunctions.cs" />
+    <Compile Include="PDFFunctions.cs" />
+    <Compile Include="PDFViewer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PDFViewer.Designer.cs">
+      <DependentUpon>PDFViewer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="InstructionsUserControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="InstructionsUserControl.Designer.cs">
+      <DependentUpon>InstructionsUserControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RDSettings.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="RDSettings.Designer.cs">
+      <DependentUpon>RDSettings.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Settings.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Settings.Designer.cs">
+      <DependentUpon>Settings.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SetupService.cs" />
+    <Compile Include="SideScanUserControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="SideScanUserControl.Designer.cs">
+      <DependentUpon>SideScanUserControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TipScan1To1.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="TipScan1To1.Designer.cs">
+      <DependentUpon>TipScan1To1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Sorting.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Sorting.Designer.cs">
+      <DependentUpon>Sorting.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="BadScanSelector.resx">
+      <DependentUpon>BadScanSelector.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BadScanSelectorForm.resx">
+      <DependentUpon>BadScanSelectorForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FixtureTransfer.resx">
+      <DependentUpon>FixtureTransfer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InHouseBurScan.resx">
+      <DependentUpon>InHouseBurScan.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RDBinSettings.resx">
+      <DependentUpon>RDBinSettings.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BinSettings.resx">
+      <DependentUpon>BinSettings.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BurSideScanPerLotUserControl.resx">
+      <DependentUpon>BurSideScanPerLotUserControl.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BurSideScanUserControl.resx">
+      <DependentUpon>BurSideScanUserControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BusyWindow.resx">
+      <DependentUpon>BusyWindow.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HomeUserControl.resx">
+      <DependentUpon>HomeUserControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InHouseBurInspection.resx">
+      <DependentUpon>InHouseBurInspection.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LotNumberCorrectorForm.resx">
+      <DependentUpon>LotNumberCorrectorForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PDFViewer.resx">
+      <DependentUpon>PDFViewer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="InstructionsUserControl.resx">
+      <DependentUpon>InstructionsUserControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RDSettings.resx">
+      <DependentUpon>RDSettings.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Settings.resx">
+      <DependentUpon>Settings.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SideScanUserControl.resx">
+      <DependentUpon>SideScanUserControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Sorting.resx">
+      <DependentUpon>Sorting.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TipScan1To1.resx">
+      <DependentUpon>TipScan1To1.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="Microsoft.Office.Core">
+      <Guid>{2DF8D04C-5BFA-101B-BDE5-00AA0044DE52}</Guid>
+      <VersionMajor>2</VersionMajor>
+      <VersionMinor>8</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="Microsoft.Office.Interop.Excel">
+      <Guid>{00020813-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>9</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="VBIDE">
+      <Guid>{0002E157-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>5</VersionMajor>
+      <VersionMinor>3</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\OPUS_Glidewell.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\OPUS_Glidewell v2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Instructions 1.0.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Instructions 2.0.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <Analyzer Include="..\packages\AWSSDK.CognitoIdentity.3.7.0.2\analyzers\dotnet\cs\AWSSDK.CognitoIdentity.CodeAnalysis.dll" />
+    <Analyzer Include="..\packages\AWSSDK.CognitoIdentityProvider.3.7.0.2\analyzers\dotnet\cs\AWSSDK.CognitoIdentityProvider.CodeAnalysis.dll" />
+    <Analyzer Include="..\packages\AWSSDK.DynamoDBv2.3.7.102.20\analyzers\dotnet\cs\AWSSDK.DynamoDBv2.CodeAnalysis.dll" />
+    <Analyzer Include="..\packages\AWSSDK.Lambda.3.7.305.40\analyzers\dotnet\cs\AWSSDK.Lambda.CodeAnalysis.dll" />
+    <Analyzer Include="..\packages\AWSSDK.Lambda.3.7.305.40\analyzers\dotnet\cs\SharedAnalysisCode.dll" />
+    <Analyzer Include="..\packages\AWSSDK.S3.3.7.104.21\analyzers\dotnet\cs\AWSSDK.S3.CodeAnalysis.dll" />
+    <Analyzer Include="..\packages\AWSSDK.SecurityToken.3.7.0.2\analyzers\dotnet\cs\AWSSDK.SecurityToken.CodeAnalysis.dll" />
+    <Analyzer Include="..\packages\AWSSDK.SimpleNotificationService.3.7.101.68\analyzers\dotnet\cs\AWSSDK.SimpleNotificationService.CodeAnalysis.dll" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

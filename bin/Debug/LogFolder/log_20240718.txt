@@ -1,0 +1,3 @@
+[14:11:45] 	Bur data processing took 2972ms, csvFile: Lot_1024062065_SYS5_Scan_06-21-2024_13-24-49
+[14:11:49] 	Bur data processing took 1872ms, csvFile: Lot_1024062065_SYS5_Scan_06-21-2024_14-33-27
+[14:11:55] 	Bur data processing took 4002ms, csvFile: Lot_1024062065_SYS5_Scan_06-21-2024_13-24-49
